@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  client:
+    build: ./docker
+    container_name: nuxt
+    ports:
+      - "3000:3000"
+    expose:
+      - "3000"
+    volumes:
+      - .:/nuxt-sample
+    tty: true
+    stdin_open: true

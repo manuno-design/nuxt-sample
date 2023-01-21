@@ -1,4 +1,3 @@
-// main.js
 module.exports = {
     stories: [
       "../components/stories/**/*.stories.mdx",

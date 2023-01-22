@@ -6,9 +6,8 @@ services:
     container_name: nuxt
     ports:
       - "3000:3000"
-    expose:
-      - "3000"
+      - "6006:6006"
     volumes:
       - .:/nuxt-sample
+    working_dir: /nuxt-sample
     tty: true
-    stdin_open: true

@@ -8,6 +8,6 @@ services:
       - "3000:3000"
       - "6006:6006"
     volumes:
-      - .:/nuxt-sample
+      - ./app:/nuxt-sample/app
     working_dir: /nuxt-sample
     tty: true

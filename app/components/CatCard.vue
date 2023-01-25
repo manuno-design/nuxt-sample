@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { CatResponse  } from '~~/types';
+import { CatResponse } from '~~/types';
 
 interface Props {
   catData: CatResponse;
@@ -9,9 +9,9 @@ defineProps<Props>();
 </script>
 
 <template>
-  <div class="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-7 xl:aspect-h-8">
+  <div class="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg xl:aspect-w-7 xl:aspect-h-8">
     <img
-      class="h-full w-full object-cover object-center group-hover:opacity-75"
+      class="card-img"
       :src="catData.url"
       alt="cute cat"
       :data-testid="catData.id"

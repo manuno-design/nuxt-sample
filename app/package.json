@@ -15,7 +15,11 @@
     "@storybook/vue3": "^6.5.15",
     "autoprefixer": "^10.4.13",
     "nuxt": "^3.0.0",
+    "nuxt-icon": "^0.2.7",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "axios": "^1.2.4"
   }
 }
